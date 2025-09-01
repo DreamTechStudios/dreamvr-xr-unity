@@ -1,12 +1,13 @@
 {
-    "name": "com.google.xr.cardboard",
-    "displayName": "Google Cardboard XR Plugin for Unity",
-    "version": "1.30.0",
+    "name": "com.dreamtech.xr.sdk",
+    "displayName": "Dream VR SDK",
+    "version": "1.30.1",
+    "author": "Dream Studios",
     "unity": "2019.4",
-    "description": "Provides rendering and input support for Google Cardboard.",
+    "description": "Provides rendering and input support for Dream VR and Dream VR portal devices. This sdk will help you make standalone games for DreamVR. This is a fork of Google's Google Cradboard plugin.",
     "keywords": [
-        "google",
-        "cardboard",
+        "dream studios",
+        "dreamvr",
         "vr",
         "xr",
         "reality",
@@ -15,13 +16,19 @@
     "dependencies": {
         "com.unity.inputsystem": "1.7.0",
         "com.unity.xr.management": "3.2.9",
-        "com.unity.xr.legacyinputhelpers": "2.1.4"
+        "com.unity.xr.legacyinputhelpers": "2.1.4",
+        "com.unity.xr.interaction.toolkit": "3.0.5"
     },
     "samples": [
         {
-            "displayName": "Hello Cardboard",
+            "displayName": "Demo",
             "description": "Basic sample, minimal project setup.",
-            "path": "Samples~/hellocardboard-unity"
+            "path": "Samples~/demo-unity"
+        }
+        {
+            "displayName": "Application services",
+            "description": "Gives DreamVR services etc.",
+            "path": "Samples~/dreamvr-unity"
         }
     ]
 }
