@@ -25,10 +25,5 @@
             "description": "Basic sample, minimal project setup.",
             "path": "Samples~/demo-unity"
         }
-        {
-            "displayName": "Application services",
-            "description": "Gives DreamVR services etc.",
-            "path": "Samples~/dreamvr-unity"
-        }
     ]
 }
